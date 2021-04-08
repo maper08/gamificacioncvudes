@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* index.css */
+.programa{
+	background-color:#D43D4A;}
+
+
+/* pestañas.css */
+ul.tabs li.active {
+  	background: #D43D4A;}
+
+article {
+	border-top: #D43D4A solid 3px;
+	border-left: #D43D4A solid 3px;}
+
+.tituloslide {
+    background: #D43D4A;}
+
+.botonslide {
+    border: #D43D4A solid;}
+
+.botonslide:hover{
+	border:#D43D4A solid;
+	background:#D43D4A;}
+
+/* index_lem.css */
+.titulolem {
+    background-color: #D43D4A;}
+
+.botonlem {
+    background: #D43D4A;}
+
+ ul.tabs li.active {
+    background: #D43D4A;}
+
+ .titulolem { 
+    background-color: #D43D4A;}
+
+ .block {
+    border-bottom: solid 5px #D43D4A;}
+
+ .comp_capitulos {
+    background-color: #D43D4A;}

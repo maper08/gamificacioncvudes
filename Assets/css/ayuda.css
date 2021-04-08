@@ -1,0 +1,396 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	text-align:center;
+	margin:0px;
+	
+	background-size:contain;
+	background-repeat:no-repeat;
+	font-family: 'Open Sans', sans-serif;
+	}
+#encabezado {
+	width:100%;
+	max-width:1280px;
+	height:100px;
+	margin:0px auto;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content:space-between;
+    justify-content:space-between;
+	}
+	
+.logolem{
+	width:250px;
+	height:80px;
+	background:url(../images/logos/logo_lem.png) no-repeat;
+	background-size:contain;	
+	margin-top:20px;
+	margin-left:10px;}
+	
+.logocvudes{
+	width:150px;
+	height:75px;
+	background:url(../images/logos/logo_cvudes.png) no-repeat;
+	background-size:contain;
+	background-position: right top;
+	margin-top:20px;
+	margin-right: 10px;}	
+	
+.botones{
+	width:85px;
+	height:90px;
+	margin-right:5%;
+	margin-top:5px;
+	}
+	
+			
+.menu{
+	max-width:1280px;
+	width:100%;
+	height:100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size:12px;
+	color: #203F7C;
+	text-align:center;
+	margin:0px auto;
+		display: -webkit-box;
+  		display: -moz-box;
+  		display: -ms-flexbox;
+	display: -webkit-flex;
+	display:flex;
+    -webkit-justify-content: space-between;
+	justify-content:space-between;
+	
+}
+
+.lmenubands{
+	width:100%;
+	height:90px;
+	max-width:400px;
+	margin:0px auto;
+	background:url(../images/colors-bands.png) no-repeat;
+	background:auto;
+	background-position:center left;}
+
+.botonesmenu {
+	max-width:340px;
+	width:100%;
+    margin:0;
+	padding:10px 10px;
+	display: -webkit-box;
+  		display: -moz-box;
+  		display: -ms-flexbox;
+	display: -webkit-flex;
+	display:flex;
+    -webkit-justify-content: space-between;
+	justify-content:space-between;
+	}
+	
+.botonmenu{
+	margin:2px auto;
+	width:30%;
+	height:90px;
+	
+	text-decoration:none;
+	color:#336699;
+		}
+		
+.botonmenu:hover{
+	transition:all 0.5s;
+	font-size:15px;
+	}
+		
+.botonmenu img{
+		width:60%;}
+	
+.rmenubands{
+		width:100%;
+		height:90px;
+		max-width:400px;
+		margin:0px auto;
+		background:url(../images/colors-bands.png) no-repeat;
+		background:auto;
+		background-position:center;}
+
+.contenidoayuda{
+	width:100%;
+	max-width:1280px;
+	margin:0px auto;
+	overflow:auto;
+	font-family: 'Open Sans', sans-serif;
+	}
+
+.tituloayudaintro{
+	font-family: 'Open Sans' sans-serif;
+ 	text-align: left; color: #203F7C; 
+ 	padding: 0% 2.5%; 
+ 	height: 35px  
+ 	}
+
+ .subtituloayuda{
+ 	text-align: left
+ }
+
+ .imagenesayuda{
+ 	text-align: left;
+ 	height: 400px
+ }
+
+.capitulosLEM{
+	width:100%;
+	max-width:1280px;
+	height:1200px;
+	margin:0 auto;
+	background:#C7C7C7;
+	
+	}	
+	
+.wrapper {
+  background: white;
+  margin:0px;
+  padding: 0;
+  width: 100%;
+  max-width:1270px;
+}
+
+ul.tabs {
+      width: 100%;
+    list-style-type: none;
+    margin: 40px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+ul.tabs li {
+  background-color: #203F7C;
+    border-bottom: none;
+    float: left;
+    text-align: center;
+    width: 40%;
+    max-width: 150px;
+    min-width: 80px;
+    margin: 0px 5px 0px 0px;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+}
+ul.tabs li a {
+  color: white;
+ font-size:0.8em;
+text-decoration: none;
+}
+ul.tabs li.hover {
+background: #00B3CF;
+  color: #ffffff;
+  text-decoration: none;
+}
+ul.tabs li.active {
+  background: #00B3CF;
+}
+ul.tabs li.active a {
+  color: white;
+}
+.clr {
+  clear: both;
+}
+  
+.block{
+	background:#FFFFFF;
+	width:100%;
+	margin:0px auto; 
+	padding:2%;
+	border: solid 5px #17BCE2;
+	border-radius:5px;
+	}
+.block p{
+	text-align:left;
+	color:#777777;}	
+
+
+.footergris{ 
+	width:100%;
+	max-width: 1280px; 
+	height:170px; 
+	background:url(../images/bgfooter.png) no-repeat;
+	background-size: cover;
+	background-position: top;
+	margin:0 auto 
+}
+
+.piedepagina{ 
+	width: 70%;
+    padding: 38px 30px;
+    text-align: right;
+    background-color: #203F7C;
+}
+
+.piedepagina p {margin-bottom: 0}
+
+.footer{ 
+	width:100%; 
+	max-width:1280px;
+	font-family:'Open Sans', sans-serif; 
+	font-size:1em; color:#FFF;  
+	text-align:center; 
+	background-color:#203F7C; 
+	display:-webkit-flex; 
+	display:flex; 
+	-webkit-justify-content:space-between; 
+	justify-content:space-between; 
+	align-items:stretch; 
+	margin:0 auto
+}
+
+.info{ 
+	padding: 0 20px;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1em;
+    float: left;
+    border-right: solid white 2px;
+    text-align: center;
+}
+
+.info:hover{
+	color:#ffc107;
+	text-decoration: none;
+}
+
+.info:last-child{
+	border:0;
+}
+
+footer{display:flex; flex-wrap:nowrap}
+.udes_footer{ 
+	width:30%;
+	min-width:400px;
+	background-image:url(../images/background_footer.png); 
+	background-repeat:no-repeat; 
+	background-color:#fff;  
+	flex-wrap:wrap; 
+	text-align:right 
+}
+footer .udes_footer img{ position:relative; right:0; height:80px; cursor:pointer; padding:10px}
+
+
+
+footer{
+font-family: 'Open Sans', sans-serif;
+	font-size:1em;
+	color:#FFFFFF;
+	width:100%;
+	max-width:1280px;
+	text-align:center;
+	background-color:#203F7C;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    align-items: stretch;
+	margin:0px auto;
+
+}	
+
+
+.piedepagina{
+	width:70%;
+	text-align:center;
+	background-color:#203F7C;
+	margin:10px auto;
+
+		}
+
+footer{display:flex; flex-wrap:nowrap}
+.udes_footer{ 
+	background-image:url(../images/background_footer.png); 
+	background-repeat:no-repeat; background-color:#fff; width:30%; 
+	flex-wrap:wrap;
+	min-width:400px; 
+	text-align:right 
+}
+footer .udes_footer img{ position:relative; right:0; height:80px; cursor:pointer; padding:10px}
+
+
+.udes_footer img {
+	position: relative;
+	right: 0px;
+	height:65px; 
+	cursor:pointer;
+	padding: 10px;
+}
+
+.footergris{ 
+	max-width:1280px; 
+	width:100%; 
+	height:120px; 
+	margin:0 auto 
+}
+
+
+.cvudes, .udes, .lem{ 
+	padding:5px; 
+	background-color:#3FAAD8; 
+	text-decoration:none; 
+	color:#FFF; 
+	font-size:1em; 
+	border-radius:5px; 
+	margin:20px 
+}	
+	
+		
+@media all and (max-width: 800px) {
+	.wrapper {
+	
+		}
+	
+	.block{
+		max-width:760px;
+		height:90%}
+		
+	.titulolem{
+		font-size:22px;
+		}
+		
+	.descripcion{
+		margin:15px;
+		font-size:12px;}
+		
+	.descripcion2{
+		margin:15px;
+		font-size:12px;}
+	
+	.footer { width: 100%;flex-wrap: wrap} 
+	footer p{  font-size: 0.8em} 
+	.cvudes, .udes, .lem{  font-size: 0.8em; margin: 2px}
+	.piedepagina{ width:100%; }
+	.udes_footer{ width:100%; background-color: white; }
+	
+	}
+
+
+
+	
+@media screen and (max-width: 950px) {
+	.iconscc{
+		margin-left:10px;}
+	.iconsc{
+		width:30%}}
+
+
+
+
+
+@media only screen and (max-width: 768px){
+	footer{
+		flex-wrap: wrap;
+	}
+	.piedepagina{
+		width: 100%;
+	}
+	.udes_footer{
+		width: 100%
+	}
+	.udes_footer{
+		text-align: center;
+	}
+
+
+}

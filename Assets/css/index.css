@@ -1,0 +1,16 @@
+@charset "UTF-8";
+body{text-align:center;margin:0;font-family:'Open Sans',sans-serif}
+#encabezado{width:100%;max-width:1280px;height:100px;margin:0 auto;display:-webkit-flex;display:flex;-webkit-justify-content:space-between;justify-content:space-between}
+.logolem{width:250px;height:80px;background:url(../images/logo_lem.png) no-repeat;background-size:contain;margin-top:20px;margin-left:10px}
+.logocvudes{width:150px;height:75px;background:url(../images/logo_cvudes.png) no-repeat;background-size:contain;background-position:right top;margin-top:20px;margin-right:10px}
+.botones{width:85px;height:90px;margin-right:5%;margin-top:5px}
+#banner{max-width:1280px;width:100%;background-image:url(../images/background_header2.png);background-repeat:no-repeat;background-position:center;background-size:cover;height:250px;margin:0 auto}
+.programa{max-width:1280px;width:100%;background-color:#D43D4A;margin:0 auto;border-radius:30px 30px 0 0}h1{padding:10px;color:#FFF;font-family:'Open Sans',sans-serif;font-style:normal;font-size:2em;margin:0}
+.colorbands{margin:10px auto;max-width:1280px;height:30px;background:url(../images/colors-bands.png) no-repeat center;background-size:auto}footer{font-family:'Open Sans',sans-serif;font-size:1em;color:#FFF;width:100%;max-width:1280px;text-align:center;background-color:#203F7C;display:-webkit-flex;display:flex;-webkit-justify-content:space-between;justify-content:space-between;align-items:stretch;margin:10px auto}
+.piedepagina{width:70%;text-align:center;background-color:#203F7C;margin:10px auto}
+.udes_footer{background-image:url(../images/background_footer.png);background-repeat:no-repeat;background-color:#fff;width:30%;flex-wrap:wrap;min-width:400px;text-align:right}
+.udes_footer img{position:relative;right:0;height:65px;cursor:pointer;padding:10px}
+.cvudes,.lem{padding:5px;background-color:#3FAAD8;text-decoration:none;color:#FFF;font-size:1em;border-radius:5px;margin:20px}@media only screen and (max-width:768px){footer{flex-wrap:wrap}
+.piedepagina{width:100%}
+.udes_footer{width:100%}
+.udes_footer{text-align:center}}	
